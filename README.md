@@ -1,6 +1,8 @@
 # Redmine Send Issue Reply Email
 
-[![Build Status](https://travis-ci.org/matsukei/redmine_send_issue_reply_email.svg?branch=master)](https://travis-ci.org/matsukei/redmine_send_issue_reply_email)
+### This forked version is used as an update to work with Redmine Version 4.0
+
+[![Build Status](https://api.travis-ci.com/venkatesh2012/redmine_send_issue_reply_email.svg?branch=master&status=unknown)](https://travis-ci.org/venkatesh2012/redmine_send_issue_reply_email)
 
 It is a plugin that provides the email sending feature to non Redmine users when registering notes.
 
