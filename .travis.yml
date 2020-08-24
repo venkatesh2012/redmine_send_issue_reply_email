@@ -21,7 +21,7 @@ before_install:
   - export TESTSPACE=`pwd`/testspace/
   - export REDMINE_PATH=$TESTSPACE/redmine
   - mkdir $TESTSPACE
-  - git clone git://github.com/redmine/redmine.git $REDMINE_PATH
+  - git clone https://github.com/redmine/redmine.git $REDMINE_PATH
   - git checkout -b $REDMINE_REPOS origin/$REDMINE_REPOS 
   - ln -s $TRAVIS_BUILD_DIR $REDMINE_PATH/plugins/$PLUGIN_NAME
   - cp test/database.travis.yml $REDMINE_PATH/config/database.yml
